@@ -1,5 +1,5 @@
 # Programming Assignment CS330
-* **Requirments**
+* **Requirements**
 
 Think of simulating a security installation very similar to those installed in many offices and homes. The installation has a keypad and an engine (a controller) used to decide whether the user has entered the correct access code or not.
 
@@ -14,7 +14,15 @@ DDDDD1 is the unlocking code DDDDD4 is the locking code, where DDDDD are the lea
 
 * **Cloning the Repository** 
 We have to clone the repository to run the program using
-  * ```git clone https://github.com/noreen1423/Programming_Assignment_CS330.git```
+    * ```git clone https://github.com/noreen1423/Programming_Assignment_CS330.git```
+  
+Run the program on Linux system using Python3. 
+    * ```python3 part1.py```
+    * ```python3 part2.py```
+  
+  
+## Tested Platform
+The code has been tested on linux platform. The code gives the desired results if valid input is entered and it gives an error if invalid input is entered. 
   
   
   
