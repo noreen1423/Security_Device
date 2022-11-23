@@ -1,5 +1,5 @@
 # Programming Assignment CS330
-## Requirments
+* **Requirments**
 
 Think of simulating a security installation very similar to those installed in many offices and homes. The installation has a keypad and an engine (a controller) used to decide whether the user has entered the correct access code or not.
 
@@ -11,3 +11,11 @@ For example, let's assume that the un-locking code is 33441. If the user enters 
                   
 
 DDDDD1 is the unlocking code DDDDD4 is the locking code, where DDDDD are the least significant five digits in your student ID A20502963. As soon as the last digit of the access code is entered, your program will signal the action taken (lock or unlock).
+
+* **Cloning the Repository** 
+We have to clone the repository to run the program using
+  * ```git clone https://github.com/noreen1423/Programming_Assignment_CS330.git```
+  
+  
+  
+ 
