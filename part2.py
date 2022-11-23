@@ -1,4 +1,4 @@
-
+#PART 2
 import random
 from time import sleep
 
@@ -6,11 +6,11 @@ from time import sleep
 def Check_Lock(key, Status_Lock):
     #Type in lock value
     if key == 4 and Status_Lock is False: 
-        print("The lock will be locked")
+        print("The device will be locked")
         return True
     #Type in unlock value 
     elif key == 1 and Status_Lock is True:
-        print("The lock will be unlocked")
+        print("The device will be unlocked")
         return False
     else:
         #check the security system
