@@ -1,3 +1,4 @@
+#Lock Check Method
 import random
 from time import sleep
 
@@ -37,6 +38,7 @@ def Check_Door(door):
     return door
 
 def main():
+    # variables
     secs = 0
     Lock_Status = True # current status of lock
     Rand_Code = random.randint(0,99999) #random code values
@@ -56,7 +58,7 @@ def main():
         # enter value in one at a time and this is using the random generator
         value = random.randint(0,9)
         key = Digit(Rand_Code, Cur_State)
-        seconds += 1
+        secs += 1
         print(" >> ", value)
 
         if value == key: #if the the nth digit in key matched in sequence
