@@ -25,7 +25,7 @@ def main():
     #student ID = A20502963
     Code = "02963" 
     # current status of the lock
-    Lock_Status = True 
+    Status_Lock = True 
     State = 0  #FSM - current status
 
     print("Part 1")
@@ -44,7 +44,7 @@ def main():
         #if code ends
         if State == 5: 
             Val = int(input("key >> "))
-            Lock_Status = Lock(Val, Lock_Status)
+            Status_Lock = Lock(Val, Status_Lock)
             State = 4 
 
 
