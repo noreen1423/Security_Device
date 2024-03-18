@@ -1,5 +1,4 @@
-# Programming Assignment CS330
-* **Security Device**
+# Security Device
 
 Think of simulating a security installation very similar to those installed in many offices and homes. The installation has a keypad and an engine (a controller) used to decide whether the user has entered the correct access code or not.
 
@@ -14,7 +13,7 @@ DDDDD1 is the unlocking code DDDDD4 is the locking code, where DDDDD are the lea
 * **Cloning the Repository** 
 We have to clone the repository to run the program using
   
-   `git clone https://github.com/noreen1423/Programming_Assignment_CS330.git`
+   `git clone https://github.com/noreen1423/Security_Device.git`
   
 Run the program on Linux system using Python3
 
